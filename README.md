@@ -167,4 +167,4 @@ I practiced Linux file-system organization, shell scripting, log generation, tex
 ---
 
 **Project type:** Beginner Linux administration  
-**Status:** Completed by the learner; screenshots and outputs should reflect the learner's own verified results.
+
