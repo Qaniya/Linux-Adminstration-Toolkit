@@ -2,11 +2,6 @@
 
 A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Each day is a self-contained mini project with its own scripts, documentation, and terminal screenshots as evidence.
 
-**Author:** Qaniya Naz | BS Cloud Application Development and Operations
-**GitHub:** https://github.com/Qaniya
-
----
-
 ## Projects at a Glance
 
 | Day | Project | Focus | Details |
