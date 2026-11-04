@@ -8,7 +8,7 @@ A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Ea
 |---|---|---|---|
 | 1 | Linux Workspace Setup | Files, logs, searching, tools | [Day1-Linux-Workspace](Day1-Linux-Workspace/README_Day1.md) |
 | 2 | Shared Application Directory | Users, groups, permissions, ACLs, automation | [Day2-Shared-App](Day2-Shared-App/README_DAY2.md) |
-| 3 | Shared Application Directory | Bash Scripting, systemd, Process Management, Log Monitoring, Service Troubleshooting | [Day3- Troubleshooting with systemd (Day3- Troubleshooting with systemd/README_Day3.md)(https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/main/Day3-%20Troubleshooting%20with%20systemd)| 
+| 3 | Shared Application Directory | Bash Scripting, systemd, Process Management, Log Monitoring, Service Troubleshooting | [Day3- Troubleshooting with systemd](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd)
 
 ---
 
@@ -82,8 +82,7 @@ pgrep -af worker.sh
 ### Learning Outcome
 Gained practical experience managing Linux background services, monitoring application activity, diagnosing service failures, and understanding automatic service recovery.
 
-📁 **Evidence:** [Day 3 screenshots`](./screenshots/)
-
+📁 **Evidence:** [Day3- Troubleshooting with systemd/Screenshot](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd/Screenshot)
 ## Repository Structure
 
 ```text
