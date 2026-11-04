@@ -8,7 +8,7 @@ A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Ea
 |---|---|---|---|
 | 1 | Linux Workspace Setup | Files, logs, searching, tools | [Day1-Linux-Workspace](Day1-Linux-Workspace/README_Day1.md) |
 | 2 | Shared Application Directory | Users, groups, permissions, ACLs, automation | [Day2-Shared-App](Day2-Shared-App/README_DAY2.md) |
-
+| 3 | Shared Application Directory | Bash Scripting, systemd, Process Management, Log Monitoring, Service Troubleshooting | [Day2-Shared-App](Day2-Shared-App/README_DAY2.md) | 
 
 ---
 
@@ -82,7 +82,8 @@ pgrep -af worker.sh
 ### Learning Outcome
 Gained practical experience managing Linux background services, monitoring application activity, diagnosing service failures, and understanding automatic service recovery.
 
-📁 **Evidence:** See the [`Day 3 screenshots`](./screenshots/) folder for practical results and terminal outputs.
+📁 **Evidence:** [Day 3 screenshots`](./screenshots/)]
+
 ## Repository Structure
 
 ```text
