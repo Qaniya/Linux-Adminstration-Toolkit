@@ -82,7 +82,7 @@ pgrep -af worker.sh
 ### Learning Outcome
 Gained practical experience managing Linux background services, monitoring application activity, diagnosing service failures, and understanding automatic service recovery.
 
-📁 **Evidence:** [Day 3 screenshots`](./screenshots/)]
+📁 **Evidence:** [Day 3 screenshots`](./screenshots/)
 
 ## Repository Structure
 
