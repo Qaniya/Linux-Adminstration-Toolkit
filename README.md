@@ -9,6 +9,7 @@ A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Ea
 | 1 | Linux Workspace Setup | Files, logs, searching, tools | [Day1-Linux-Workspace](Day1-Linux-Workspace/README_Day1.md) |
 | 2 | Shared Application Directory | Users, groups, permissions, ACLs, automation | [Day2-Shared-App](Day2-Shared-App/README_DAY2.md) |
 
+
 ---
 
 ## Day 1: Linux Workspace Setup
@@ -47,7 +48,41 @@ Automated a shared directory, `/opt/shared-app`, using a repeatable Bash script 
 **Evidence:** [Day2-Shared-App/Screenshot](Day2-Shared-App/Screenshot)
 
 ---
+## Day 3 – Linux Service Management & Troubleshooting
 
+**Objective:** Learn how to create, manage, monitor, and troubleshoot background services using `systemd` on Ubuntu Linux.
+
+### What I Practised
+- Created a Bash worker script to generate timestamped heartbeat logs.
+- Configured a custom `systemd` service using a service unit file.
+- Started, stopped, restarted, and enabled services.
+- Monitored running processes and identified Process IDs (PIDs).
+- Checked application logs using `tail` and service logs using `journalctl`.
+- Simulated a service failure by using an incorrect `ExecStart` path.
+- Diagnosed and fixed the `203/EXEC` error.
+- Tested automatic service recovery using `Restart=on-failure`.
+- Practised graceful and forced process termination.
+
+### Key Linux Commands
+```bash
+systemctl status demo-worker
+systemctl start demo-worker
+systemctl stop demo-worker
+systemctl restart demo-worker
+systemctl enable demo-worker
+systemctl daemon-reload
+journalctl -u demo-worker -n 20 --no-pager
+tail -f /var/log/worker.log
+pgrep -af worker.sh
+```
+
+### Skills & Technologies
+`Ubuntu Linux` · `Bash Scripting` · `systemd` · `Process Management` · `Log Monitoring` · `Service Troubleshooting` · `Linux Commands`
+
+### Learning Outcome
+Gained practical experience managing Linux background services, monitoring application activity, diagnosing service failures, and understanding automatic service recovery.
+
+📁 **Evidence:** See the [`Day 3 screenshots`](./screenshots/) folder for practical results and terminal outputs.
 ## Repository Structure
 
 ```text
@@ -60,9 +95,14 @@ Linux-Adminstration-Toolkit/
 │   ├── logs/
 │   └── Screenshot/
 └── Day2-Shared-App/
-    ├── README_DAY2.md
-    ├── setup.sh
-    └── Screenshot/
+|    ├── README_DAY2.md
+|    ├── setup.sh
+|   └── Screenshot/
+day-03-service-troubleshooting/
+|    ├── worker.sh
+|    ├──demo-worker.service
+|    ├── README.md
+|   └── screenshots
 ```
 
 ## Key Takeaways
