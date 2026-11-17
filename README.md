@@ -8,7 +8,9 @@ A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Ea
 |---|---|---|---|
 | 1 | Linux Workspace Setup | Files, logs, searching, tools | [Day1-Linux-Workspace](Day1-Linux-Workspace/README_Day1.md) |
 | 2 | Shared Application Directory | Users, groups, permissions, ACLs, automation | [Day2-Shared-App](Day2-Shared-App/README_DAY2.md) |
-| 3 | Shared Application Directory | Bash Scripting, systemd, Process Management, Log Monitoring, Service Troubleshooting | [Day3- Troubleshooting with systemd](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd)
+| 3 | Troubleshooting with systemd | Bash Scripting, systemd, Process Management, Log Monitoring, Service Troubleshooting | [Day3- Troubleshooting with systemd](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd)
+| 4 | Networking | Ubuntu Linux, OpenSSH, Apache2, VirtualBox, Windows PowerShell, UFW | [Day4- Networking](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/0c8618ff474cf4323c7f088fd6e7c862a527a299/Day4-Networking)
+
 
 ---
 
@@ -85,6 +87,31 @@ Gained practical experience managing Linux background services, monitoring appli
 📁 **Evidence:** [Day3- Troubleshooting with systemd/Screenshot](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd/Screenshot)
 ## Repository Structure
 
+## Day 3 – Networking
+
+### Day 04 — SSH, Networking & Firewall Troubleshooting
+
+**Focus:** Secure remote access, Linux network diagnostics, service management, and connectivity troubleshooting.
+
+**Hands-on tasks completed:**
+
+- Configured Ed25519 SSH key-based authentication and remote Ubuntu access.
+- Inspected network interfaces, routing tables, and listening ports using `ip` and `ss`.
+- Configured Windows hostname resolution.
+- Verified Apache2 service status and HTTP responses.
+- Configured VirtualBox NAT port forwarding for SSH and HTTP.
+- Tested Windows-to-Ubuntu connectivity using PowerShell.
+- Inspected UFW firewall status.
+
+**Technologies:** Ubuntu Linux, OpenSSH, Apache2, VirtualBox, Windows PowerShell, UFW.
+
+**Outcome:** Successfully established SSH access and HTTP connectivity between a Windows host and an Ubuntu virtual machine using VirtualBox NAT networking.
+
+**Key Learning:** Understanding how SSH, DNS/hostname resolution, listening ports, Linux services, and NAT port forwarding work together during infrastructure troubleshooting.
+
+📁 **Evidence:** [Day4-Networking/Screenshots](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/0c8618ff474cf4323c7f088fd6e7c862a527a299/Day4-Networking/Screenshots)
+
+
 ```text
 Linux-Adminstration-Toolkit/
 ├── README.md
@@ -103,6 +130,13 @@ day-03-service-troubleshooting/
 |    ├──demo-worker.service
 |    ├── README.md
 |   └── screenshots
+Day4-Networking/
+├── README.md
+├── hosts
+├── hosts.txt
+├── hosts.gitignore_global
+└── Screenshots/
+    
 ```
 
 ## Key Takeaways
