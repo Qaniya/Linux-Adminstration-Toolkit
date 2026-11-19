@@ -30,7 +30,7 @@ Built a structured application workspace at `/opt/myapp` and practiced everyday 
 
 **Skills practiced:** `mkdir`, `chown`, `chmod`, `grep`, `find`, output redirection (`>` and `>>`), `apt` package installation
 
-**Evidence:** [Day1-Linux-Workspace/Screenshot](Day1-Linux-Workspace/Screenshot)
+📁 **Evidence:** [Day1-Linux-Workspace/Screenshot](Day1-Linux-Workspace/Screenshot)
 
 ---
 
@@ -49,7 +49,7 @@ Automated a shared directory, `/opt/shared-app`, using a repeatable Bash script 
 
 **Skills practiced:** `useradd`, `usermod -aG`, `groupadd`, `chown`, `chmod`, setgid, POSIX ACLs (`setfacl`/`getfacl`), `.bashrc`, aliases, `set -euo pipefail`
 
-**Evidence:** [Day2-Shared-App/Screenshot](Day2-Shared-App/Screenshot)
+📁 **Evidence:** [Day2-Shared-App/Screenshot](Day2-Shared-App/Screenshot)
 
 ---
 ## Day 3 – Linux Service Management & Troubleshooting
@@ -161,6 +161,4 @@ Created a file-backed virtual disk, attached it through a loop device, formatted
 - Backup and cron automation
 - Networking and SSH basics
 
----
 
-*This is a learning project preparing for entry-level Cloud Support / Cloud Administrator roles.*
