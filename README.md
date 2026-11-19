@@ -131,17 +131,34 @@ Created a file-backed virtual disk, attached it through a loop device, formatted
 
 ```text
 .
+Linux-Adminstration-Toolkit/
 ├── README.md
-├── Day1-Linux-Workspace/
-├── Day2-Shared-App/
-├── Day3- Troubleshooting with systemd/
-├── Day4-Networking/
-├── day5/
+├── Day01-Linux-Workspace/
+│   ├── README.md
+│   ├── bin/
+│   ├── config/
+│   ├── logs/
+│   └── screenshots/
+├── Day02-Shared-App/
+│   ├── README.md
+│   ├── setup.sh
+│   └── screenshots/
+├── Day03-Systemd-Service-Troubleshooting/
+│   ├── README.md
+│   ├── worker.sh
+│   ├── demo-worker.service
+│   ├── report/
+│   └── screenshots/
+├── Day04-Networking/
+│   ├── README.md
+│   ├── config/
+│   └── screenshots/
+├── Day05-Nginx-Reverse-Proxy/
 │   ├── README.md
 │   ├── nginx/
 │   │   └── myapp.conf
-│   └── screenshot/
-└── Day6-Linux-Disk-Management/
+│   └── screenshots/
+└── Day06-Linux-Disk-Management/
     ├── README.md
     └── screenshots/
 ```
