@@ -11,6 +11,7 @@ A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Ea
 | 3 | Troubleshooting with systemd | Bash scripting, systemd, process management, log monitoring | [Day 3 project](<Day3- Troubleshooting with systemd/README_Day3.md>) |
 | 4 | Networking | Ubuntu Linux, OpenSSH, Apache2, VirtualBox, Windows PowerShell, UFW | [Day 4 project](Day4-Networking/README.md) |
 | 5 | Nginx Reverse Proxy | Nginx, Python, HTTP, reverse proxy, troubleshooting | [Day 5 project](day5/README.md) |
+| 6 | Linux Disk Management | Loop devices, EXT4, persistent mounts, disk-space troubleshooting | [Day 6 project](Day6-Linux-Disk-Management/README.md) |
 
 
 ---
@@ -118,6 +119,14 @@ Deployed a Python HTTP server behind Nginx, configured local hostname resolution
 
 📁 **Project guide:** [Day 5 README](day5/README.md) · [Screenshots](day5/screenshot/)
 
+## Day 6 – Linux Disk Management
+
+Created a file-backed virtual disk, attached it through a loop device, formatted it with EXT4, and configured persistent mounting. Also practised monitoring disk usage and investigating deleted-but-open files.
+
+**Skills practiced:** Loop devices, EXT4, `fstab`, filesystem monitoring, and disk-space troubleshooting.
+
+📁 **Project guide:** [Day 6 README](Day6-Linux-Disk-Management/README.md) · [Screenshots](Day6-Linux-Disk-Management/screenshots/)
+
 ## Main Project Folders
 
 ```text
@@ -127,11 +136,14 @@ Deployed a Python HTTP server behind Nginx, configured local hostname resolution
 ├── Day2-Shared-App/
 ├── Day3- Troubleshooting with systemd/
 ├── Day4-Networking/
-└── day5/
+├── day5/
+│   ├── README.md
+│   ├── nginx/
+│   │   └── myapp.conf
+│   └── screenshot/
+└── Day6-Linux-Disk-Management/
     ├── README.md
-    ├── nginx/
-    │   └── myapp.conf
-    └── screenshot/
+    └── screenshots/
 ```
 
 ## Key Takeaways
