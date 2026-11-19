@@ -8,8 +8,9 @@ A hands-on, beginner-friendly Linux administration portfolio built on Ubuntu. Ea
 |---|---|---|---|
 | 1 | Linux Workspace Setup | Files, logs, searching, tools | [Day1-Linux-Workspace](Day1-Linux-Workspace/README_Day1.md) |
 | 2 | Shared Application Directory | Users, groups, permissions, ACLs, automation | [Day2-Shared-App](Day2-Shared-App/README_DAY2.md) |
-| 3 | Troubleshooting with systemd | Bash Scripting, systemd, Process Management, Log Monitoring, Service Troubleshooting | [Day3- Troubleshooting with systemd](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd)
-| 4 | Networking | Ubuntu Linux, OpenSSH, Apache2, VirtualBox, Windows PowerShell, UFW | [Day4- Networking](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/0c8618ff474cf4323c7f088fd6e7c862a527a299/Day4-Networking)
+| 3 | Troubleshooting with systemd | Bash scripting, systemd, process management, log monitoring | [Day 3 project](<Day3- Troubleshooting with systemd/README_Day3.md>) |
+| 4 | Networking | Ubuntu Linux, OpenSSH, Apache2, VirtualBox, Windows PowerShell, UFW | [Day 4 project](Day4-Networking/README.md) |
+| 5 | Nginx Reverse Proxy | Nginx, Python, HTTP, reverse proxy, troubleshooting | [Day 5 project](day5/README.md) |
 
 
 ---
@@ -85,9 +86,7 @@ pgrep -af worker.sh
 Gained practical experience managing Linux background services, monitoring application activity, diagnosing service failures, and understanding automatic service recovery.
 
 📁 **Evidence:** [Day3- Troubleshooting with systemd/Screenshot](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/b9224b9557ad9fcf64190f6be6d6bbb159d818b8/Day3-%20Troubleshooting%20with%20systemd/Screenshot)
-## Repository Structure
-
-## Day 3 – Networking
+## Day 4 – Networking
 
 ### Day 04 — SSH, Networking & Firewall Troubleshooting
 
@@ -109,34 +108,30 @@ Gained practical experience managing Linux background services, monitoring appli
 
 **Key Learning:** Understanding how SSH, DNS/hostname resolution, listening ports, Linux services, and NAT port forwarding work together during infrastructure troubleshooting.
 
-📁 **Evidence:** [Day4-Networking/Screenshots](https://github.com/Qaniya/Linux-Adminstration-Toolkit/tree/0c8618ff474cf4323c7f088fd6e7c862a527a299/Day4-Networking/Screenshots)
+📁 **Evidence:** [Day 4 screenshots](Day4-Networking/Screenshots/)
 
+## Day 5 – Nginx Reverse Proxy
+
+Deployed a Python HTTP server behind Nginx, configured local hostname resolution, and tested successful requests and backend failures.
+
+**Skills practiced:** Nginx reverse proxy configuration, Python HTTP server, hostname resolution, `curl`, service monitoring, and log-based troubleshooting.
+
+📁 **Project guide:** [Day 5 README](day5/README.md) · [Screenshots](day5/screenshot/)
+
+## Main Project Folders
 
 ```text
-Linux-Adminstration-Toolkit/
+.
 ├── README.md
 ├── Day1-Linux-Workspace/
-│   ├── README_Day1.md
-│   ├── bin/start.sh
-│   ├── config/app.conf
-│   ├── logs/
-│   └── Screenshot/
-└── Day2-Shared-App/
-|    ├── README_DAY2.md
-|    ├── setup.sh
-|   └── Screenshot/
-day-03-service-troubleshooting/
-|    ├── worker.sh
-|    ├──demo-worker.service
-|    ├── README.md
-|   └── screenshots
-Day4-Networking/
-├── README.md
-├── hosts
-├── hosts.txt
-├── hosts.gitignore_global
-└── Screenshots/
-    
+├── Day2-Shared-App/
+├── Day3- Troubleshooting with systemd/
+├── Day4-Networking/
+└── day5/
+    ├── README.md
+    ├── nginx/
+    │   └── myapp.conf
+    └── screenshot/
 ```
 
 ## Key Takeaways
